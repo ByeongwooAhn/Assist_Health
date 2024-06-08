@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background">
+
+    <ImageView
+        android:layout_width="111dp"
+        android:layout_height="111dp"
+        android:contentDescription="@string/todo"
+        android:src="@drawable/sikdan_icon"
+        tools:ignore="MissingConstraints,ImageContrastCheck"
+        tools:layout_editor_absoluteX="150dp"
+        tools:layout_editor_absoluteY="114dp" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="409dp"
+        android:layout_height="56dp"
+        android:background="#1F1E1E"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sikdan_text"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp"
+        tools:ignore="MissingConstraints" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="409dp"
+        android:layout_height="84dp"
+        android:background="#1F1E1E"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="646dp" />
+
+    <android.widget.Button
+        android:id="@+id/sikdan_make"
+        android:layout_width="131dp"
+        android:layout_height="48dp"
+        android:background="@drawable/button_style"
+        android:backgroundTint="@color/content"
+        android:text="@string/sikdan_make1"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints,DuplicateSpeakableTextCheck"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="381dp" />
+
+    <android.widget.Button
+        android:id="@+id/sikdan_lsit"
+        android:layout_width="131dp"
+        android:layout_height="48dp"
+        android:background="@drawable/button_style"
+        android:backgroundTint="@color/content"
+        android:text="@string/sikdan_list"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="250dp"
+        tools:layout_editor_absoluteY="381dp" />
+
+    <android.widget.Button
+        android:id="@+id/sikdan_calender"
+        android:layout_width="131dp"
+        android:layout_height="48dp"
+        android:background="@drawable/button_style"
+        android:backgroundTint="@color/content"
+        android:text="@string/sikdan_calender"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="484dp" />
+
+    <android.widget.Button
+        android:id="@+id/sikdan_button"
+        android:layout_width="131dp"
+        android:layout_height="48dp"
+        android:background="@drawable/button_style"
+        android:backgroundTint="@color/content"
+        android:text="@string/sikdan_make1"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="250dp"
+        tools:layout_editor_absoluteY="484dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

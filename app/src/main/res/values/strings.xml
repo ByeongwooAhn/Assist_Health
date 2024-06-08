@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">AS</string>
+    <string name="todo">TODO</string>
+    <string name="sikdan_text">식단</string>
+    <string name="home_icon">홈</string>
+    <string name="sikdan_make">식단 구성</string>
+    <string name="sikdan_make1">식단 구성</string>
+    <string name="sikdan_calender">식단 캘린더</string>
+    <string name="sikdan_list">식단 목록</string>
+</resources>
