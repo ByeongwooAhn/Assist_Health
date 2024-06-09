@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CalendarTextStyle">
+        <item name="android:textColor">#FFFFFF</item> <!-- 흰색으로 변경 -->
+    </style>
+</resources>
