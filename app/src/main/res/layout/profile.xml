@@ -169,5 +169,6 @@
         app:layout_constraintBottom_toTopOf="@id/nav_view"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
+    <!-- 주석 내용 -->
 
 </androidx.constraintlayout.widget.ConstraintLayout>

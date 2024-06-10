@@ -8,6 +8,7 @@
     android:background="#333232"
     android:foregroundTint="#FFFFFF"
     android:paddingTop="?attr/actionBarSize">
+    <!-- 주석 내용 -->
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/nav_view"
