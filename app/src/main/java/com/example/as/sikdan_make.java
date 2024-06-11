@@ -1,7 +1,10 @@
 package com.example.as;
 
 import android.annotation.SuppressLint;
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -9,7 +12,7 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
-public class NewActivity extends AppCompatActivity {
+public class sikdan_make extends AppCompatActivity {
 
     @SuppressLint("MissingInflatedId")
     @Override
@@ -21,6 +24,15 @@ public class NewActivity extends AppCompatActivity {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
+        });
+
+        Button danButton = findViewById(R.id.dan);
+        danButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(sikdan_make.this, sikdan_make_dan.class);
+                startActivity(intent);
+            }
         });
     }
 }

@@ -62,7 +62,7 @@
         android:id="@+id/sikdan_make"
         android:layout_width="159dp"
         android:layout_height="58dp"
-        android:layout_marginStart="144dp"
+        android:layout_marginStart="124dp"
         android:background="@drawable/button_style"
         android:backgroundTint="@color/content"
         android:text="@string/sikdan_make1"
@@ -71,13 +71,13 @@
         app:layout_constraintBottom_toTopOf="@+id/buttonNav"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.457" />
+        app:layout_constraintVertical_bias="0.458" />
 
     <android.widget.Button
         android:id="@+id/sikdan_list"
         android:layout_width="159dp"
         android:layout_height="58dp"
-        android:layout_marginStart="144dp"
+        android:layout_marginStart="124dp"
         android:background="@drawable/button_style"
         android:backgroundTint="@color/content"
         android:text="@string/sikdan_list"
@@ -86,13 +86,13 @@
         app:layout_constraintBottom_toTopOf="@+id/buttonNav"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/toolbar"
-        app:layout_constraintVertical_bias="0.596" />
+        app:layout_constraintVertical_bias="0.598" />
 
     <android.widget.Button
         android:id="@+id/sikdan_calender"
         android:layout_width="159dp"
         android:layout_height="58dp"
-        android:layout_marginStart="144dp"
+        android:layout_marginStart="124dp"
         android:background="@drawable/button_style"
         android:backgroundTint="@color/content"
         android:text="@string/sikdan_calender"
@@ -101,6 +101,6 @@
         app:layout_constraintBottom_toTopOf="@+id/buttonNav"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/toolbar"
-        app:layout_constraintVertical_bias="0.758" />
+        app:layout_constraintVertical_bias="0.759" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

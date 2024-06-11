@@ -10,14 +10,16 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="A"
-        android:inputType="number" />
+        android:inputType="number"
+        android:minHeight="48dp" />
 
     <EditText
         android:id="@+id/input_b"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="B"
-        android:inputType="number" />
+        android:inputType="number"
+        android:minHeight="48dp" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -29,17 +31,13 @@
             android:id="@+id/input_c_min"
             android:layout_width="0dp"
             android:layout_weight="1"
-            android:layout_height="wrap_content"
-            android:minValue="0"
-            android:maxValue="60" />
+            android:layout_height="wrap_content" />
 
         <NumberPicker
             android:id="@+id/input_c_sec"
             android:layout_width="0dp"
             android:layout_weight="1"
-            android:layout_height="wrap_content"
-            android:minValue="0"
-            android:maxValue="60" />
+            android:layout_height="wrap_content" />
     </LinearLayout>
 
     <LinearLayout
@@ -52,17 +50,13 @@
             android:id="@+id/input_d_min"
             android:layout_width="0dp"
             android:layout_weight="1"
-            android:layout_height="wrap_content"
-            android:minValue="0"
-            android:maxValue="60" />
+            android:layout_height="wrap_content" />
 
         <NumberPicker
             android:id="@+id/input_d_sec"
             android:layout_width="0dp"
             android:layout_weight="1"
-            android:layout_height="wrap_content"
-            android:minValue="0"
-            android:maxValue="60" />
+            android:layout_height="wrap_content" />
     </LinearLayout>
 
 </LinearLayout>

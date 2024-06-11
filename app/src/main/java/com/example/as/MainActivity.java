@@ -11,6 +11,11 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
+import androidx.navigation.NavController;
+import androidx.navigation.Navigation;
+import androidx.navigation.ui.NavigationUI;
+
+import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -26,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
         sikdanMakeButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, NewActivity.class);
+                Intent intent = new Intent(MainActivity.this, sikdan_make.class);
                 startActivity(intent);
             }
         });
@@ -55,13 +60,36 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        Button sikdanMakedanButton = findViewById(R.id.sikdan_make_dan);
-        sikdanMakedanButton.setOnClickListener(new View.OnClickListener() {
+        View sikdanNav = findViewById(R.id.navigation_sikdan);
+
+        sikdanNav.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, sikdan_make_dan.class);
+                Intent intent = new Intent(MainActivity.this, sikdan_main.class);
+                startActivity(intent);
+            }
+        });
+
+        View actNav = findViewById(R.id.navigation_home);
+
+        actNav.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, act_main.class);
+                startActivity(intent);
+            }
+        });
+
+        View myNav = findViewById(R.id.navigation_mypage);
+
+        myNav.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, mypage.class);
                 startActivity(intent);
             }
         });
     }
+
+
 }

@@ -25,10 +25,13 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".NewActivity" />
+        <activity android:name=".sikdan_main" />
+        <activity android:name=".sikdan_make" />
         <activity android:name=".sikdan_calender" />
         <activity android:name=".sikdan_list" />
         <activity android:name=".sikdan_make_dan" />
+        <activity android:name=".act_main" />
+        <activity android:name=".mypage" />
 
     </application>
 
