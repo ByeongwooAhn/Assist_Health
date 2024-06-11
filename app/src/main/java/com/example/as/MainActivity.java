@@ -54,5 +54,14 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        Button sikdanMakedanButton = findViewById(R.id.sikdan_make_dan);
+        sikdanMakedanButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, sikdan_make_dan.class);
+                startActivity(intent);
+            }
+        });
     }
 }

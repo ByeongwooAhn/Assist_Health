@@ -2,12 +2,7 @@ package com.example.as;
 
 import android.annotation.SuppressLint;
 import android.os.Bundle;
-
-import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.graphics.Insets;
-import androidx.core.view.ViewCompat;
-import androidx.core.view.WindowInsetsCompat;
 
 public class sikdan_make_dan extends AppCompatActivity {
 
@@ -15,12 +10,6 @@ public class sikdan_make_dan extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        EdgeToEdge.enable(this);
-        setContentView(R.layout.sikdan_make); // 여기서 새로운 레이아웃 파일 이름을 사용하세요
-        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.sikdan_make), (v, insets) -> {
-            Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
-            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
-            return insets;
-        });
+        setContentView(R.layout.sikdan_make_dan); // 새로운 화면의 레이아웃 파일을 여기에 설정해주세요.
     }
 }

@@ -28,6 +28,7 @@
         <activity android:name=".NewActivity" />
         <activity android:name=".sikdan_calender" />
         <activity android:name=".sikdan_list" />
+        <activity android:name=".sikdan_make_dan" />
 
     </application>
 

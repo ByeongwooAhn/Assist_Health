@@ -69,9 +69,9 @@
     <android.widget.Button
         android:id="@+id/button4"
         android:layout_width="109dp"
-        android:layout_height="47dp"
-        android:layout_marginStart="64dp"
-        android:layout_marginTop="248dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="512dp"
         android:background="#A6000000"
         android:backgroundTint="@null"
         android:text="신체정보 수정"
