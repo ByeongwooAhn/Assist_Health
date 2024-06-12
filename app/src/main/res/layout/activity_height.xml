@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#333232"
+    tools:context=".HeightActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:background="#333232">
+
+        <!-- 크게 보여지는 키와 몸무게 입력 안내 -->
+        <TextView
+            android:id="@+id/textViewHeightWeight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="키와 몸무게를 입력해주세요"
+            android:textSize="26dp"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- 작게 보여지는 추가 안내 텍스트 -->
+        <TextView
+            android:id="@+id/textViewInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="유저님의 정보를 바탕으로 운동 무게, 식단 추천 및 운동 소모 칼로리가 계산됩니다."
+            android:textSize="19dp"
+            android:textColor="@android:color/white"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- 키 입력란 -->
+        <EditText
+            android:id="@+id/editTextHeight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="키 (cm)"
+            android:background="@android:color/transparent"
+            android:textColor="@android:color/white"
+            android:textColorHint="#D9A86C"
+            android:layout_marginBottom="16dp"
+            android:inputType="number"/>
+
+        <!-- 밑줄로 키 입력란 구분 -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#D9A86C"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- 몸무게 입력란 -->
+        <EditText
+            android:id="@+id/editTextWeight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="몸무게 (kg)"
+            android:background="@android:color/transparent"
+            android:textColor="@android:color/white"
+            android:textColorHint="#D9A86C"
+            android:layout_marginBottom="16dp"
+            android:inputType="number"/>
+
+        <!-- 밑줄로 몸무게 입력란 구분 -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#D9A86C"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- 빈 공간을 추가하여 버튼을 하단에 배치 -->
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+
+        <!-- 다음 버튼 -->
+        <Button
+            android:id="@+id/buttonNext"
+            style="@android:style/Widget.Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/background_btn_intro1"
+            android:text="다음"
+            android:textColor="#ffffff"
+            android:textSize="24dp"
+            android:textStyle="bold"
+            android:layout_gravity="bottom"
+            android:layout_margin="16dp"/>
+
+    </LinearLayout>
+</ScrollView>
