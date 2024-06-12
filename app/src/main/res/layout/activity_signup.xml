@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#333232"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity2">
 
     <ScrollView
         android:layout_width="0dp"
@@ -90,16 +90,18 @@
                 android:textColorHint="#464646" />
 
             <Button
-                android:id="@+id/button"
+                android:id="@+id/buttonSignup"
                 style="@android:style/Widget.Button"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
-                android:background="@drawable/btn_orange"
+                android:background="#D9A86C"
                 android:text="SignUp"
                 android:textColor="#ffffff"
                 android:textSize="24sp"
                 android:textStyle="bold" />
+
         </LinearLayout>
+
     </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>
