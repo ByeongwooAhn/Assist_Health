@@ -13,7 +13,7 @@
         android:background="#333232"
         android:foregroundTint="#FFFFFF"
         android:paddingTop="?attr/actionBarSize"
-        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="0dp">
 
         <TextView
@@ -23,9 +23,13 @@
             android:text="신체정보"
             android:textColor="#F6F4F4"
             android:textSize="20sp"
-            tools:ignore="MissingConstraints"
-            tools:layout_editor_absoluteX="46dp"
-            tools:layout_editor_absoluteY="141dp" />
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.136"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.248"
+            tools:ignore="MissingConstraints" />
 
         <TextView
             android:id="@+id/textView"
@@ -34,8 +38,12 @@
             android:text="신체정보 수정"
             android:textColor="@color/white"
             android:textSize="24sp"
-            tools:layout_editor_absoluteX="150dp"
-            tools:layout_editor_absoluteY="41dp" />
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.444"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.025" />
 
         <android.widget.Button
             android:id="@+id/button"
@@ -45,19 +53,28 @@
             android:backgroundTint="@null"
             android:text="완료"
             android:textColor="@color/teal_200"
-            app:rippleColor="#716969"
-            tools:layout_editor_absoluteX="288dp"
-            tools:layout_editor_absoluteY="97dp" />
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.829"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.226"
+            app:rippleColor="#716969" />
 
         <EditText
             android:id="@+id/editTextText9"
             android:layout_width="300dp"
             android:layout_height="60dp"
+            android:layout_marginBottom="4dp"
             android:ems="10"
             android:inputType="text"
             android:text="체지방률"
-            tools:layout_editor_absoluteX="46dp"
-            tools:layout_editor_absoluteY="393dp" />
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.414"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.608" />
 
         <EditText
             android:id="@+id/editTextText6"
@@ -66,18 +83,27 @@
             android:ems="10"
             android:inputType="text"
             android:text="키"
-            tools:layout_editor_absoluteX="46dp"
-            tools:layout_editor_absoluteY="186dp" />
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.414"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.354" />
 
         <EditText
             android:id="@+id/editTextText7"
             android:layout_width="300dp"
             android:layout_height="60dp"
+            android:layout_marginTop="16dp"
             android:ems="10"
             android:inputType="text"
             android:text="몸무게"
-            tools:layout_editor_absoluteX="46dp"
-            tools:layout_editor_absoluteY="289dp" />
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.414"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.463" />
 
         <EditText
             android:id="@+id/editTextText8"
@@ -86,7 +112,11 @@
             android:ems="10"
             android:inputType="text"
             android:text="골격근량"
-            tools:layout_editor_absoluteX="46dp"
-            tools:layout_editor_absoluteY="501dp" />
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.414"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.734" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

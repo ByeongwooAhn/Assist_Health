@@ -14,15 +14,15 @@
 
         <androidx.appcompat.widget.Toolbar
             android:id="@+id/toolbar"
-            android:layout_width="409dp"
-            android:layout_height="56dp"
-            android:background="#1F1E1E"
+            android:layout_width="457dp"
+            android:layout_height="53dp"
+            android:background="@color/background"
             android:minHeight="?attr/actionBarSize"
             android:theme="?attr/actionBarTheme"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             tools:ignore="MissingConstraints"
-            tools:layout_editor_absoluteY="0dp" />
+            tools:layout_editor_absoluteY="0hdp" />
 
         <TextView
             android:id="@+id/textView1"
